@@ -1,0 +1,141 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+  }
+  .grilla{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+  display: flex;
+}
+
+  h1 {
+    color: #006989;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 5px;
+    word-spacing: normal;
+    margin: 10px;
+    border: solid;
+    width: 70%;
+  }
+  #listaDeNavegacion {
+    color: #820b8a;
+    text-decoration: none;
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #460642;
+  }
+  #header{
+    display: flex;
+    flex-direction: column;
+  }
+  #buscador {
+    color: #d1b490;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #intel {
+    color: #0071c5;
+    font-family: "Ubuntu", sans-serif;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #amd {
+    color: #ed1c24;
+    font-family: "Ubuntu", sans-serif;
+    background-size: cover;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/484/10/516/technology-amd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  .row {
+    color: #ee7b30;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+  }
+  #memoriaRam {
+    color: #460642;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #fuenteDeAlimentacion {
+    color: #d1b490;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #gabinete {
+    color: #241023;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #graficas {
+    color: #820b8a;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #nvidia {
+    color: #76b900;
+    font-family: "Ubuntu", sans-serif;
+    background-color: black;
+  }
+  .almacenamiento {
+    color: #03cea4;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .botones {
+    color: #ee7b30;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #contactanos {
+    color: #ee7b30;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #subtituloContact {
+    color: #820b8a;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #preguntas {
+    color: #460642;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .parrafosPreguntas {
+    color: #d1b490;
+    font-family: "Ubuntu", sans-serif;
+  }
+  h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+  }
+  h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
+  h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
+  #imagenAlLado{
+   margin-top: 20px;
+    margin-left: 100px;
+  }
+  span{
+    margin-left: 50px;
+    background-image: linear-gradient(to left, red, blue);
+    
+  }
+  @media screen and (max-width: 599px){
+    body{
+      font-size: 50%;
+    }
+  }
+  @media screen and (min-width: 600px){
+   body{
+     font-size: 100%;
+
+   }
+  }
+  @media screen and (min-width: 900px){
+    body{
+      font-size: 100%;
+    }
+  }
